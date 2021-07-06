@@ -30,7 +30,7 @@ To verify your work run the script
 
 ### Note 1
 > All the operations should be performed from within the CLI: to access the CLI use the command 
-> docker exec -it cli bash
+> `docker exec -it cli bash`
 
 ### Note 2
 > This Network is TLS enabled, you can find the TLS certificate for RootCA for the Orderer saved 
