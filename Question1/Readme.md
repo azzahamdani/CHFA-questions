@@ -4,15 +4,7 @@ Before starting the question please make sure that your environment is setup cor
 To bring Up the network 
 
 ```sh
-# navigate to the question 
-cd Question1/networkFiles/
-# bring up the environment
-./start.sh
-```
-After finishing with the question make sure to bring the network down 
-```sh
-# bring down the network
-./teardown.sh
+./prerequisite.sh
 ```
 
 # Question 1: Install a chaincode 
