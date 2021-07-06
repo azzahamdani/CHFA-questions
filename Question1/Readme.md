@@ -6,6 +6,11 @@ To bring Up the network
 ```sh
 ./prerequisite.sh
 ```
+This exercise is meant to be done manually 
+To verify your work run the script 
+```sh
+./verify.sh
+```
 
 # Question 1: Install a chaincode 
 
