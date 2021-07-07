@@ -1,0 +1,8 @@
+NAMES
+cli
+peer0.org1.example.com
+orderer.example.com
+orderer3.example.com
+orderer2.example.com
+orderer5.example.com
+orderer4.example.com
