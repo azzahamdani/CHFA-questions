@@ -14,21 +14,11 @@ To verify your work run the script
 
 # Question 1: Install a chaincode 
 
-### Data Summary
-| Network Entity | Value |
-| ------ | ------ |
-| Peer Address | peer0.org1.example.com:7051 |
-| Orderer Address | orderer.example.com:7050 |
-
 
 ### Question
-1. Update /networkFiles/configtx.yaml to suppport a Policy where all 
+1. Generate a genesis block to ensure that the orderers are configured to make use of Raft. The genesis block should be named `genesis.block` in the location `/vagrant/Question4/networkFiles/config` . Once this is done bring up the network. Make sure changes take effect after starting the network.
+
+You can use the `/vagrant/Question4/networkFiles/start.sh` script to restart the network.
 
 
-### Note 1
-> All the operations should be performed from within the CLI: to access the CLI use the command 
-> `docker exec -it cli bash`
 
-### Note 2
-> This Network is TLS enabled, you can find the TLS certificate for RootCA for the Orderer saved 
-> in environment variable ***$ORDERER_TLS_CA***
