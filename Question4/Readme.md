@@ -18,7 +18,8 @@ To verify your work run the script
 ### Question
 1. Generate a genesis block to ensure that the orderers are configured to make use of Raft. The genesis block should be named `genesis.block` in the location `/vagrant/Question4/networkFiles/config` . Once this is done bring up the network. Make sure changes take effect after starting the network.
 
-You can use the `/vagrant/Question4/networkFiles/start.sh` script to restart the network.
+# Note 1
+> You can use the `/vagrant/Question4/networkFiles/start.sh` script to restart the network.
 
 
 
