@@ -9,7 +9,7 @@ To bring Up the network
 This exercise is meant to be done manually 
 To verify your work run the script 
 ```sh
-./verify.sh
+./verifymyresult.sh
 ```
 
 # Question 1: Install a chaincode 
@@ -24,7 +24,7 @@ To verify your work run the script
 | Chaincode Path | /opt/gopath/src/github.com/chaincode/abstore/javascript |
 
 ### Question
-1. Install nodejs chaincode at `/opt/gopath/src/github.com/chaincode/abstore` with name `abcc`, sequence number `1` and version `1.0` in the running network having one organisation Org1 with one peer peer0.org1.example.com. Use `abcc_0.1` as tag to follow the best practice 
+1. Install nodejs chaincode at `/opt/gopath/src/github.com/chaincode/abstore/javascript` with name `abcc`, sequence number `1` and version `1.0` in the running network having one organisation Org1 with one peer peer0.org1.example.com. Use `abcc_1.0` as tag to follow the best practice 
 
 2. Initiate the deployed chaincode with agrs `["init","a","888","b","200"]` 
 
