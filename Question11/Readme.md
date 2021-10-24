@@ -6,13 +6,19 @@ To start fabric-ca
 ./startfabric-ca.sh
 ```
 
+After finishing with the question; please clean up the environment using the following commands:
+```sh
+./stopfabric-ca.sh
+./clean.sh
+```
+
 # Question 11: Create an Identity
 
 Hyperledger Fabric CA has been installed in node X. Create an identity with name ***userABC*** of type user, affiliation as ***org1.department1*** and secret as ***passwd***.
 
-The ***userABC*** identity should have the following privileges 
-A. Can register new identities of type client 
-B. Can revoke the identities.
+The ***userABC*** identity should have the following privileges :
+* Can register new identities of type client 
+* Can revoke the identities.
 
 Return to the base node upon completion.
 
